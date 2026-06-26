@@ -1,10 +1,16 @@
-let tamanhoFonte = 18
+let tamamnhoFonte= 18;
+function aumentarFonte() { 
+tamanhoFonte += 2;
+document.getelementbyid('texto').style.fortsize= tamanhoFonte + 'px';
+}
 
-function aumentarFonte () {
-  tamanhoFonte += 2;
-  document.getElementyById('texcto').style.fontSize = tamanhoFonte + 'px';
+function diminuirFonte() { 
+tamanhoFonte -= 2;
+document.getelementbyid('texto').style.fortsize= tamanhoFonte + 'px';
 }
-function diminuirFonte () {
-  tamanhoFonte -= 2;
-  document.getElementyById('texto').style.fontSize = tamanho fonte + 'px';
+
+function altoContraste () {
+  document.body.classList.toggle ('contraste');
 }
+
+
