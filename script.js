@@ -1,14 +1,14 @@
 let tamanhoFonte = 16; 
 
 function aumentarFonte() { 
-    if (tamanhoFonte < 30) { // Evita que a fonte fique grande demais
+    if (tamanhoFonte < 30) { 
         tamanhoFonte += 2;
         document.getElementById('texto').style.fontSize = tamanhoFonte + 'px';
     }
 }
 
-function diminuirFonte() { // Função corrigida e testada
-    if (tamanhoFonte > 12) { // Evita que a fonte fique pequena demais
+function diminuirFonte() { 
+    if (tamanhoFonte > 12) { 
         tamanhoFonte -= 2;
         document.getElementById('texto').style.fontSize = tamanhoFonte + 'px';
     }
