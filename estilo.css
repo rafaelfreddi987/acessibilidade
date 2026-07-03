@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    transition: background 0.3s, color 0.3s; /* Transição suave */
+    transition: background 0.3s, color 0.3s;
 }
 
 header {
@@ -25,12 +25,12 @@ main {
     background-color: white;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra corrigida e visível */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 p {
-    font-size: 16px; /* Tamanho inicial mais legível */
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -46,12 +46,11 @@ button {
     transition: 0.2s;
 }
 
-/* Corrigido: sem espaço entre button e :hover */
 button:hover {
     background-color: #b802b8;
 }
 
-/* --- MODO ALTO CONTRASTE --- */
+/* --- ESTILOS DE ALTO CONTRASTE --- */
 .contraste {
     background-color: black;
     color: yellow;
